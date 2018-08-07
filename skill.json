@@ -30,7 +30,15 @@
       "custom": {
         "endpoint": {
           "sourceDir": "dist"
-        }
+        },
+        "interfaces": [
+          {
+            "type": "GADGET_CONTROLLER"
+          },
+          {
+            "type": "GAME_ENGINE"
+          }
+        ]
       }
     },
     "manifestVersion": "1.0"
