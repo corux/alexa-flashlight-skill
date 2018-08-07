@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Flashlight",
+          "summary": "The flashlight activates the blue Alexa light ring and allows using Echo Buttons as portable flashlights.",
+          "examplePhrases": [
+            "Alexa open flashlight",
+            "Alexa open flashlight for five minutes"
+          ],
+          "description": "Sample Full Description"
+        },
+        "de-DE": {
+          "name": "Taschenlampe",
+          "summary": "Mit der Taschenlampe leuchtet das blaue Alexa Licht oder Echo Buttons in verschiedenen Farben.",
+          "examplePhrases": [
+            "Alexa, starte Taschenlampe",
+            "Alexa, starte Taschenlampe für fünf Minuten"
+          ],
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special testing required.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "dist"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

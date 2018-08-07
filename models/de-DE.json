@@ -1,0 +1,29 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "taschenlampe",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TimeIntent",
+          "slots": [],
+          "samples": [
+            "für fünf Minuten"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

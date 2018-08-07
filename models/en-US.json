@@ -1,0 +1,29 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "flashlight",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TimeIntent",
+          "slots": [],
+          "samples": [
+            "for five minutes"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

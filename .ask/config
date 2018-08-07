@@ -1,0 +1,43 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.510155bc-6cb1-4878-859b-3a9c243f074d",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "alexa-flashlight-skill-production"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "90617de09248c01fbe5ea88045ef4ec8"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "cafea6bccce96b7c3ab8f67d77a602f3"
+          },
+          "de-DE": {
+            "eTag": "7983f80f29a7da4b252a4c186a23ce89"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
+            "functionName": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "b83c269c-a9c3-484e-9758-f9a7f508abe5"
+          }
+        ]
+      }
+    }
+  }
+}
