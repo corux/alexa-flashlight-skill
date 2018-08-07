@@ -14,13 +14,6 @@
         {
           "name": "AMAZON.StopIntent",
           "samples": []
-        },
-        {
-          "name": "TimeIntent",
-          "slots": [],
-          "samples": [
-            "for five minutes"
-          ]
         }
       ],
       "types": []
