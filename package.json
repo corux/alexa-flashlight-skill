@@ -1,0 +1,25 @@
+{
+  "name": "alexa-flashlight-skill",
+  "version": "1.0.0",
+  "description": "Alexa Flashlight Skill",
+  "private": true,
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.ts --require ts-node/register",
+    "build:dev": "npm run build -- --mode development --watch",
+    "build:prod": "npm run build -- --mode production"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "ask-sdk-core": "^2.0.7",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.0.7",
+    "ask-sdk-model": "^1.4.1",
+    "ts-loader": "^4.4.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  }
+}
