@@ -1,23 +1,23 @@
-import * as path from 'path'
+import * as path from "path";
 
 const config = {
-  entry: './src/index.ts',
+  entry: "./src/index.ts",
   module: {
     rules: [
       {
+        exclude: /node_modules/,
         test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
-      }
-    ]
-  },
-  resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ]
+        use: "ts-loader",
+      },
+    ],
   },
   output: {
-    filename: 'index.js',
-    path: path.resolve(__dirname, 'dist')
-  }
+    filename: "index.js",
+    path: path.resolve(__dirname, "dist"),
+  },
+  resolve: {
+    extensions: [ ".tsx", ".ts", ".js" ],
+  },
 };
 
 export default config;
