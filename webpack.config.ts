@@ -13,6 +13,8 @@ const config = {
   },
   output: {
     filename: "index.js",
+    library: "handler",
+    libraryTarget: "commonjs2",
     path: path.resolve(__dirname, "dist"),
   },
   resolve: {
