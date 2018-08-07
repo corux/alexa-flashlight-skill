@@ -1,5 +1,5 @@
-import {HandlerInput, RequestHandler} from "ask-sdk-core";
-import {Response} from "ask-sdk-model";
+import { HandlerInput, RequestHandler } from "ask-sdk-core";
+import { Response } from "ask-sdk-model";
 
 export class AmazonHelpIntentHandler implements RequestHandler {
   public canHandle(handlerInput: HandlerInput): boolean {

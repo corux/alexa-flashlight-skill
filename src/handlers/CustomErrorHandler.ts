@@ -1,5 +1,5 @@
-import {ErrorHandler, HandlerInput} from "ask-sdk-core";
-import {Response} from "ask-sdk-model";
+import { ErrorHandler, HandlerInput } from "ask-sdk-core";
+import { Response } from "ask-sdk-model";
 
 export class CustomErrorHandler implements ErrorHandler {
   public canHandle(handlerInput: HandlerInput): boolean {
@@ -7,14 +7,10 @@ export class CustomErrorHandler implements ErrorHandler {
   }
 
   public handle(handlerInput: HandlerInput, error: Error): Response {
-    const request = handlerInput.requestEnvelope.request;
-
-    console.log(`Error handled: ${error.message}`);
-    console.log(`Original Request was: ${JSON.stringify(request, null, 2)}`);
+    console.log(`Error handled: ${JSON.stringify(error)}`);
 
     return handlerInput.responseBuilder
-        .speak("Sorry, I can not understand the command.  Please say again.")
-        .reprompt("Sorry, I can not understand the command.  Please say again.")
-        .getResponse();
+      .withShouldEndSession(true)
+      .getResponse();
   }
 }

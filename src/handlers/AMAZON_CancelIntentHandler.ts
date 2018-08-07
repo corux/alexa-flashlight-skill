@@ -1,5 +1,5 @@
-import {HandlerInput, RequestHandler} from "ask-sdk-core";
-import {Response} from "ask-sdk-model";
+import { HandlerInput, RequestHandler } from "ask-sdk-core";
+import { Response } from "ask-sdk-model";
 
 export class AmazonCancelIntentHandler implements RequestHandler {
   public canHandle(handlerInput: HandlerInput): boolean {
@@ -10,8 +10,8 @@ export class AmazonCancelIntentHandler implements RequestHandler {
   public handle(handlerInput: HandlerInput): Response {
     const responseBuilder = handlerInput.responseBuilder;
 
-    return responseBuilder.speak("Okay, talk to you later!")
-        .withShouldEndSession(true)
-        .getResponse();
+    return responseBuilder
+      .withShouldEndSession(true)
+      .getResponse();
   }
 }

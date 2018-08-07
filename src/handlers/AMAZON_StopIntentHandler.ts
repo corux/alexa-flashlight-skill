@@ -1,5 +1,5 @@
-import {HandlerInput, RequestHandler} from "ask-sdk-core";
-import {Response} from "ask-sdk-model";
+import { HandlerInput, RequestHandler } from "ask-sdk-core";
+import { Response } from "ask-sdk-model";
 
 export class AmazonStopIntentHandler implements RequestHandler {
   public canHandle(handlerInput: HandlerInput): boolean {
@@ -10,6 +10,8 @@ export class AmazonStopIntentHandler implements RequestHandler {
   public handle(handlerInput: HandlerInput): Response {
     const responseBuilder = handlerInput.responseBuilder;
 
-    return responseBuilder.speak("welcome from typescript").getResponse();
+    return responseBuilder
+      .withShouldEndSession(true)
+      .getResponse();
   }
 }
