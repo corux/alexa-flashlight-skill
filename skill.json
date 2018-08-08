@@ -9,6 +9,8 @@
             "Alexa open flashlight",
             "Alexa open flashlight for five minutes"
           ],
+          "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
+          "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
           "description": "Sample Full Description"
         },
         "de-DE": {
@@ -18,6 +20,8 @@
             "Alexa, starte Taschenlampe",
             "Alexa, starte Taschenlampe für fünf Minuten"
           ],
+          "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
+          "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
           "description": "Sample Full Description"
         }
       },

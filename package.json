@@ -12,7 +12,9 @@
     "build": "webpack --config webpack.config.ts --require ts-node/register",
     "build:dev": "npm run build -- --mode development --watch",
     "build:prod": "npm run lint && npm run build -- --mode production",
-    "deploy:prod": "ask deploy --force --profile default"
+    "deploy:prod": "ask deploy --force --profile default --target lambda",
+    "convert-assets": "rsvg-convert -w 108 -o assets/icon108.png assets/icon.svg && rsvg-convert -w 512 -o assets/icon512.png assets/icon.svg",
+    "deploy:assets": "aws s3 sync ./assets s3://alexa-flashlight-skill/ --acl public-read"
   },
   "devDependencies": {
     "@types/node": "^10.5.7",
