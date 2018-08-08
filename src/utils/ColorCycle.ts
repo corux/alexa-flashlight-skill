@@ -1,6 +1,6 @@
 const colors = [
-  "FF0000",
   "FF9900",
+  "FF0000",
   "FF0099",
   "FFFFFF",
   "0000FF",
