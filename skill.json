@@ -6,23 +6,34 @@
           "name": "Flashlight",
           "summary": "The flashlight activates the blue Alexa light ring and allows using Echo Buttons as portable flashlights.",
           "examplePhrases": [
-            "Alexa open flashlight",
-            "Alexa open flashlight for five minutes"
+            "Alexa, open flashlight",
+            "Alexa, open flashlight for five minutes"
+          ],
+          "keywords": [
+            "Light",
+            "Flashlight",
+            "Button",
+            "Light ring"
           ],
           "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
           "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
-          "description": "Sample Full Description"
+          "description": "Use this skill to transform your Echo into a night light and your Echo Button into a flashlight. Say \"Alexa, open flashlight\" to let the Echo Light Ring light up for 5 minutes. You can press an Echo Button to transform it into a flashlight. Continue pressing the Echo Button to change its color.\n\nPlease note, that it is not possible to change the color of the Echo Light Ring. If you wish to use a different color, please use the Echo Buttons instead.\n\nYou can change the duration, that the Echo Light Ring is active. Say \"Alexa, open flashlight for 30 seconds\" or \"Alexa, open flashlight for 2 minutes\" to turn the light on for the specified time. As long as you interact with Echo Buttons, they will not turn off.\n\nTo turn off the flashlight, say \"Alexa, stop\".\n\nThis skill does not provide any voice output. The only visible reaction is the Echo Light Ring and the Echo Buttons.\n\nVisit https://www.amazon.com/gp/help/customer/display.html?nodeId=201601790 to understand the meaning of the Echo light ring patterns."
         },
         "de-DE": {
           "name": "Taschenlampe",
           "summary": "Mit der Taschenlampe leuchtet das blaue Alexa Licht oder Echo Buttons in verschiedenen Farben.",
           "examplePhrases": [
-            "Alexa, starte Taschenlampe",
-            "Alexa, starte Taschenlampe für fünf Minuten"
+            "Alexa, starte Taschenlampe"
+          ],
+          "keywords": [
+            "Licht",
+            "Taschenlampe",
+            "Button",
+            "Lichtring"
           ],
           "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
           "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
-          "description": "Sample Full Description"
+          "description": "Mit diesem Skill wird dein Echo zum Nachtlicht und dein Echo Button zur Taschenlampe. Mit \"Alexa, starte Taschenlampe\" beginnt der Echo Lichtring für 5 Minuten blau zu leuchten. Durch Drücken auf einen Echo Button, wird dieser zur Taschenlampe. Mehrmaliges Drücken des Echo Buttons erlaubt es dessen Farbe zu ändern.\n\nBitte beachte, dass es technisch nicht möglich ist, den Echo Lichtring in einer anderen Farbe leuchten zu lassen. Dafür können die Echo Buttons in verschiedenen Farben leuchten.\n\nDu kannst auch sagen, wie lange der Echo Lichtring leuchten soll. Mit \"Alexa, starte Taschenlampe für30 Sekunden\" oder \"Alexa, starte Taschenlampe für zwei Minuten\" bleibt das Licht die gewünschte Zeit an. Solange du mit Echo Buttons interagierst, leuchten diese weiter.\n\nUm die Taschenlampe auszuschalten, sage einfach \"Alexa, stopp\".\n\nDieser Skill hat keine Sprachausgabe. Die einzige Reaktion ist das Ein- und Ausschalten des Lichtrings und der Echo Buttons.\n\nAuf der Seite https://www.amazon.de/gp/help/customer/display.html?nodeId=201601790 sind die Informationen zum Echo Lichtring beschrieben."
         }
       },
       "isAvailableWorldwide": true,
@@ -51,6 +62,13 @@
         ]
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }

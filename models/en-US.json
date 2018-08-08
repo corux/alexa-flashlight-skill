@@ -19,6 +19,7 @@
           "name": "TimeIntent",
           "samples": [
             "for {time}",
+            "with {time}",
             "{time}"
           ],
           "slots": [
