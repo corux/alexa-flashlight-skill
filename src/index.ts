@@ -1,9 +1,9 @@
 import { SkillBuilders } from "ask-sdk-core";
 
-import { AmazonCancelIntentHandler } from "./handlers/AMAZON_CancelIntentHandler";
+import { AmazonCancelAndStopIntentHandler } from "./handlers/AMAZON_CancelAndStopIntentHandler";
 import { AmazonHelpIntentHandler } from "./handlers/AMAZON_HelpIntentHandler";
-import { AmazonStopIntentHandler } from "./handlers/AMAZON_StopIntentHandler";
 import { CustomErrorHandler } from "./handlers/CustomErrorHandler";
+import { GameEngineInputHandler } from "./handlers/GameEngine_InputHandler";
 import { LaunchRequestHandler } from "./handlers/LaunchRequestHandler";
 import { SessionEndedHandler } from "./handlers/SessionEndedHandler";
 import { TimeIntentHandler } from "./handlers/TimeIntentHandler";
@@ -11,12 +11,12 @@ import { LogInterceptor } from "./interceptors/LogInterceptor";
 
 export const handler = SkillBuilders.custom()
     .addRequestHandlers(
-        new AmazonCancelIntentHandler(),
-        new AmazonStopIntentHandler(),
+        new AmazonCancelAndStopIntentHandler(),
         new AmazonHelpIntentHandler(),
         new LaunchRequestHandler(),
         new SessionEndedHandler(),
         new TimeIntentHandler(),
+        new GameEngineInputHandler(),
     )
     .addErrorHandlers(
         new CustomErrorHandler(),

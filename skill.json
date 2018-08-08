@@ -28,7 +28,13 @@
       "isAvailableWorldwide": true,
       "testingInstructions": "No special testing required.",
       "category": "ORGANIZERS_AND_ASSISTANTS",
-      "distributionCountries": []
+      "distributionCountries": [],
+      "gadgetSupport": {
+        "requirement": "OPTIONAL",
+        "minGadgetButtons": 1,
+        "maxGadgetButtons": 4,
+        "numPlayersMin": 1
+      }
     },
     "apis": {
       "custom": {

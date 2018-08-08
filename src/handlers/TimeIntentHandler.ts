@@ -2,7 +2,9 @@ import { HandlerInput, RequestHandler } from "ask-sdk-core";
 import { IntentRequest, Response } from "ask-sdk-model";
 import { parse, toSeconds } from "iso8601-duration";
 
+import { getNextColor } from "../utils/ColorCycle";
 import { Constants } from "../utils/Constants";
+import { Directives } from "../utils/Directives";
 import { generateSilence } from "../utils/SilenceGenerator";
 
 export class TimeIntentHandler implements RequestHandler {
@@ -27,8 +29,16 @@ export class TimeIntentHandler implements RequestHandler {
     const responseBuilder = handlerInput.responseBuilder;
     const ssml = generateSilence(seconds);
 
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+    sessionAttributes.currentInputHandlerId = handlerInput.requestEnvelope.request.requestId;
+    sessionAttributes.color = getNextColor();
+    sessionAttributes.stopAt = Date.now() + (seconds * 1000);
+
     return responseBuilder
       .speak(ssml)
+      .addDirective(Directives.startInputHandler)
+      .addDirective(Directives.disableButtonDown)
+      .addDirective(Directives.buildButton([], sessionAttributes.color))
       .getResponse();
   }
 }
