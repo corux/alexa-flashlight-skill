@@ -6,6 +6,7 @@ import { AmazonStopIntentHandler } from "./handlers/AMAZON_StopIntentHandler";
 import { CustomErrorHandler } from "./handlers/CustomErrorHandler";
 import { LaunchRequestHandler } from "./handlers/LaunchRequestHandler";
 import { SessionEndedHandler } from "./handlers/SessionEndedHandler";
+import { TimeIntentHandler } from "./handlers/TimeIntentHandler";
 import { LogInterceptor } from "./interceptors/LogInterceptor";
 
 export const handler = SkillBuilders.custom()
@@ -15,6 +16,7 @@ export const handler = SkillBuilders.custom()
         new AmazonHelpIntentHandler(),
         new LaunchRequestHandler(),
         new SessionEndedHandler(),
+        new TimeIntentHandler(),
     )
     .addErrorHandlers(
         new CustomErrorHandler(),

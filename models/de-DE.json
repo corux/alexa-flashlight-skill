@@ -14,6 +14,19 @@
         {
           "name": "AMAZON.StopIntent",
           "samples": []
+        },
+        {
+          "name": "TimeIntent",
+          "samples": [
+            "für {time}",
+            "{time}"
+          ],
+          "slots": [
+            {
+              "name": "time",
+              "type": "AMAZON.DURATION"
+            }
+          ]
         }
       ],
       "types": []
