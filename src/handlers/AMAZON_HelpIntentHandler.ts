@@ -1,5 +1,5 @@
 import { HandlerInput, RequestHandler } from "ask-sdk-core";
-import { Response } from "ask-sdk-model";
+import { IntentRequest, Response } from "ask-sdk-model";
 
 export class AmazonHelpIntentHandler implements RequestHandler {
   public canHandle(handlerInput: HandlerInput): boolean {
@@ -11,7 +11,8 @@ export class AmazonHelpIntentHandler implements RequestHandler {
     const responseBuilder = handlerInput.responseBuilder;
 
     let helpText;
-    if (handlerInput.requestEnvelope.request.locale.match(/^de-/)) {
+    const request = handlerInput.requestEnvelope.request as IntentRequest;
+    if (request.locale.match(/^de-/)) {
       helpText = `Dieser Skill lässt den Echo Licht Ring und die Echo Buttons leuchten.
         Für weitere Informationen siehe im Skill Store nach.`;
     } else {
