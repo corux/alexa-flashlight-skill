@@ -8,7 +8,7 @@
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "alexa-flashlight-skill-production"
+                "uri": "arn:aws:lambda:eu-west-1:347839150037:function:alexa-flashlight-skill-production"
               }
             }
           }
@@ -16,25 +16,40 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "d89cf7b49dfaca7624c0ffa69d2280f8"
+          "eTag": "e161fce65e959967af4e87feed83cef2"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "651a271c8c4ba016e93ca9ed9a6712dc"
+            "eTag": "d716f5ba394d2bd6cce3de779fa5ab1b"
           },
           "de-DE": {
-            "eTag": "674db0324cfded8c421de382c5303212"
+            "eTag": "75563d868e94b55e580dbfdac4a280c2"
           }
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
-            "functionName": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
-            "awsRegion": "us-east-1",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "c6260893-ab04-4c1d-b24b-19f8f8dd0929"
+            "arn": "arn:aws:lambda:eu-west-1:347839150037:function:alexa-flashlight-skill-production",
+            "awsRegion": "us-east-1",
+            "codeUri": "dist",
+            "functionName": "alexa-flashlight-skill-production",
+            "handler": "index.handler",
+            "revisionId": "3f447f62-4b59-4378-8b32-b8031c979313",
+            "runtime": "nodejs8.10"
+          },
+          {
+            "alexaUsage": [
+              "custom/NA"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
+            "awsRegion": "us-east-1",
+            "codeUri": "dist",
+            "functionName": "alexa-flashlight-skill-production",
+            "handler": "index.handler",
+            "revisionId": "0f00e150-6b18-4c79-a8d1-c46bc9eef7b4",
+            "runtime": "nodejs8.10"
           }
         ]
       }
