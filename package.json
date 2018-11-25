@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "keywords": [],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build:prod",
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
     "build": "webpack --config webpack.config.ts --require ts-node/register",
