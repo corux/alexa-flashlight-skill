@@ -16,7 +16,7 @@
       },
       "resources": {
         "manifest": {
-          "eTag": "e161fce65e959967af4e87feed83cef2"
+          "eTag": "17043dcad1d21151304f6c0c3b8dbb64"
         },
         "interactionModel": {
           "en-US": {
@@ -32,23 +32,11 @@
               "custom/default"
             ],
             "arn": "arn:aws:lambda:eu-west-1:347839150037:function:alexa-flashlight-skill-production",
-            "awsRegion": "us-east-1",
+            "awsRegion": "eu-west-1",
             "codeUri": "dist",
             "functionName": "alexa-flashlight-skill-production",
             "handler": "index.handler",
-            "revisionId": "3f447f62-4b59-4378-8b32-b8031c979313",
-            "runtime": "nodejs8.10"
-          },
-          {
-            "alexaUsage": [
-              "custom/NA"
-            ],
-            "arn": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production",
-            "awsRegion": "us-east-1",
-            "codeUri": "dist",
-            "functionName": "alexa-flashlight-skill-production",
-            "handler": "index.handler",
-            "revisionId": "0f00e150-6b18-4c79-a8d1-c46bc9eef7b4",
+            "revisionId": "f43da4a9-6646-4540-9c6d-16dbf3ce4206",
             "runtime": "nodejs8.10"
           }
         ]

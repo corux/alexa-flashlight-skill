@@ -60,15 +60,7 @@
           {
             "type": "GAME_ENGINE"
           }
-        ],
-        "regions": {
-          "NA": {
-            "endpoint": {
-              "sourceDir": "dist",
-              "uri": "arn:aws:lambda:us-east-1:347839150037:function:alexa-flashlight-skill-production"
-            }
-          }
-        }
+        ]
       }
     },
     "manifestVersion": "1.0",
