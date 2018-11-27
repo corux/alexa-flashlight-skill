@@ -23,7 +23,7 @@
     "ask-sdk-dynamodb-persistence-adapter": "2.3.0",
     "ask-sdk-model": "1.10.1",
     "iso8601-duration": "1.1.6",
-    "ts-loader": "4.5.0",
+    "ts-loader": "5.3.1",
     "ts-node": "7.0.1",
     "tslint": "5.11.0",
     "typescript": "3.2.2",
