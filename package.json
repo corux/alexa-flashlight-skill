@@ -24,7 +24,7 @@
     "ask-sdk-model": "1.11.2",
     "iso8601-duration": "1.1.7",
     "ts-loader": "5.3.3",
-    "ts-node": "7.0.1",
+    "ts-node": "8.0.2",
     "tslint": "5.12.1",
     "typescript": "3.2.4",
     "webpack": "4.29.0",
