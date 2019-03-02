@@ -17,7 +17,7 @@
     "deploy:assets": "aws s3 sync ./assets s3://alexa-flashlight-skill/ --acl public-read"
   },
   "devDependencies": {
-    "@types/node": "10.12.27",
+    "@types/node": "10.12.29",
     "ask-cli": "1.6.2",
     "ask-sdk-core": "2.4.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.4.0",
