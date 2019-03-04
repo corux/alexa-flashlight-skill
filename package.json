@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@types/node": "10.12.29",
-    "ask-cli": "1.6.2",
+    "ask-cli": "1.6.3",
     "ask-sdk-core": "2.4.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.4.0",
     "ask-sdk-model": "1.12.0",
