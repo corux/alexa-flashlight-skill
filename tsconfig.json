@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
     "sourceMap": true,
-    "target": "es5"
+    "target": "es5",
+    "resolveJsonModule": true,
+    "lib": [
+      "es2015"
+    ]
   },
-  "include": [
-    "*.ts",
-    "src/**/*.ts",
-    "test/**/*.ts"
+  "exclude": [
+    "**/*.spec.*"
   ]
 }
