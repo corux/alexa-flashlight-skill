@@ -18,16 +18,16 @@
   },
   "devDependencies": {
     "@types/node": "10.14.1",
-    "ask-cli": "1.7.4",
+    "ask-cli": "1.7.5",
     "ask-sdk-core": "2.6.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.6.0",
-    "ask-sdk-model": "1.17.0",
+    "ask-sdk-model": "1.18.0",
     "iso8601-duration": "1.2.0",
     "ts-loader": "6.0.4",
     "ts-node": "8.3.0",
     "tslint": "5.18.0",
     "typescript": "3.5.2",
-    "webpack": "4.35.0",
+    "webpack": "4.35.2",
     "webpack-command": "0.4.2"
   }
 }
