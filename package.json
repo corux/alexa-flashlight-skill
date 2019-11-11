@@ -21,12 +21,12 @@
     "ask-cli": "1.7.17",
     "ask-sdk-core": "2.7.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.7.0",
-    "ask-sdk-model": "1.23.0",
+    "ask-sdk-model": "1.23.1",
     "iso8601-duration": "1.2.0",
     "ts-loader": "6.2.1",
     "ts-node": "8.4.1",
-    "tslint": "5.20.0",
-    "typescript": "3.6.4",
+    "tslint": "5.20.1",
+    "typescript": "3.7.2",
     "webpack": "4.41.2",
     "webpack-command": "0.5.0"
   }
