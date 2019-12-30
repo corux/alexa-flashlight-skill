@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@types/node": "10.14.1",
-    "ask-cli": "1.7.18",
+    "ask-cli": "1.7.19",
     "ask-sdk-core": "2.7.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.7.0",
     "ask-sdk-model": "1.25.1",
@@ -27,7 +27,7 @@
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
     "typescript": "3.7.4",
-    "webpack": "4.41.4",
+    "webpack": "4.41.5",
     "webpack-command": "0.5.0"
   }
 }
