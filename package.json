@@ -21,7 +21,7 @@
     "ask-cli": "2.15.0",
     "ask-sdk-core": "2.9.0",
     "ask-sdk-dynamodb-persistence-adapter": "2.9.0",
-    "ask-sdk-model": "1.31.0",
+    "ask-sdk-model": "1.32.0",
     "iso8601-duration": "1.2.0",
     "ts-loader": "8.0.3",
     "ts-node": "9.0.0",
