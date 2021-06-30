@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "torcia",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TimeIntent",
+          "samples": [
+            "per {time}",
+            "con {time}",
+            "{time}"
+          ],
+          "slots": [
+            {
+              "name": "time",
+              "type": "AMAZON.DURATION"
+            }
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
