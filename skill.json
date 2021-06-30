@@ -34,6 +34,23 @@
           "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
           "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
           "description": "Mit diesem Skill wird dein Echo zum Nachtlicht und dein Echo Button zur Taschenlampe. Mit \"Alexa, starte Taschenlampe\" beginnt der Echo Lichtring für 5 Minuten blau zu leuchten. Durch Drücken auf einen Echo Button, wird dieser zur Taschenlampe. Mehrmaliges Drücken des Echo Buttons erlaubt es dessen Farbe zu ändern.\n\nBitte beachte, dass es technisch nicht möglich ist, den Echo Lichtring in einer anderen Farbe leuchten zu lassen. Dafür können die Echo Buttons in verschiedenen Farben leuchten.\n\nDu kannst auch sagen, wie lange der Echo Lichtring leuchten soll. Mit \"Alexa, starte Taschenlampe für30 Sekunden\" oder \"Alexa, starte Taschenlampe für zwei Minuten\" bleibt das Licht die gewünschte Zeit an. Solange du mit Echo Buttons interagierst, leuchten diese weiter.\n\nUm die Taschenlampe auszuschalten, sage einfach \"Alexa, stopp\".\n\nDieser Skill hat keine Sprachausgabe. Die einzige Reaktion ist das Ein- und Ausschalten des Lichtrings und der Echo Buttons.\n\nAuf der Seite https://www.amazon.de/gp/help/customer/display.html?nodeId=201601790 sind die Informationen zum Echo Lichtring beschrieben."
+        },
+        "it-IT": {
+          "name": "Torcia",
+          "summary": "Torcia fa accendere l'anello luminoso blu di Alexa e permette di usare gli Echo Button come torce portatili.",
+          "examplePhrases": [
+            "Alexa, apri torcia",
+            "Alexa, apri torcia per cinque minuti"
+          ],
+          "keywords": [
+            "Luce",
+            "Torcia",
+            "Button",
+            "Anello luminoso"
+          ],
+          "smallIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon108.png",
+          "largeIconUri": "https://s3-eu-west-1.amazonaws.com/alexa-flashlight-skill/icon512.png",
+          "description": "Usa questa skill per trasformare il tuo Echo in una luce notturna e il tuo Echo Button in una torcia. Pronuncia \"Alexa, apri torcia\" per accendere l'anello luminoso del tuo Echo per 5 minuti. Premi un Echo Button per trasformarlo in una torcia. Premi nuovamente l'Echo Button per cambiarne il colore.\n\nAttenzione, non è possibile cambiare il colore dell'anello luminoso di un Echo. Se vuoi usare un colore differente, usa un Echo Button.\n\nPuoi cambiare la durata della luce. Pronuncia \"Alexa, apri torcia per 30 secondi\" oppure \"Alexa, apri torcia per 2 minuti\" per accendere la luce per una durata specifica. Gli Echo Button non si spegneranno finché ci interagisci.\n\nPer spegnere la torcia, pronuncia \"Alexa, stop\".\n\nQuesta skill non pronuncia alcuna frase. Fa soltanto accendere l'anello luminoso degli Echo e gli Echo Button.\n\nVisita https://www.amazon.it/gp/help/customer/display.html?nodeId=201601790 per ulteriori informazioni sui colori dell'anello luminoso."
         }
       },
       "isAvailableWorldwide": true,
